@@ -1,0 +1,32 @@
+.works{
+        min-height: 100vh;
+        width: 100vw;
+}
+
+@media (min-width:50em) {
+
+        .work{
+                padding: 15px;
+                display: grid;
+                grid-template-columns: repeat(auto-fix,minmax(25rem,1fr));
+                gap: 1.5rem;
+        }
+        
+}
+.cards{
+        position: relative;
+        cursor: pointer;
+        border: 3px solid white;
+
+}
+.cards img{
+        
+        height: 100%;
+        width: 100%;
+}
+
+.cards button{
+        
+        left: 50%;
+        top: 50%;
+}
